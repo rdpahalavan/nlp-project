@@ -14,7 +14,7 @@ context_related_words(context_name='Health', list_words=['Weight', 'Height'], mo
 where:
 - context_name: the name of the context as string
 - list_words: the list of words as list of strings
-- model_name: 'word2vec' or 'glove' or 'bert' or 'gpt'
+- model_name: `word2vec` or `glove` or `bert` or `gpt`
 
 #### Output
 
@@ -26,7 +26,7 @@ where:
  'measurement': 0.05379500240087509}
 ```
 
-More Examples:
+#### More Examples:
 
 ``` python
 >>> context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='word2vec')
