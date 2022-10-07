@@ -1,6 +1,6 @@
 # Generate Similar Words related to Context
 
-## Sample code demonstrating the overview
+## Sample code demonstrating the overview of the project
 
 Download pre-trained models here: [`Word2vec`](https://drive.google.com/uc?id=1kHrHFShYeWcI8zMnUMYb1B49Mz0DdJA3) and [`GloVe`](https://drive.google.com/uc?id=1IrvvAi0isS5zqekWgS3_KuhN-kDKuDRi).
 
@@ -9,7 +9,7 @@ The pre-trained models used for BERT and GPT as [`distilroberta-base`](https://h
 
 ### Usage
 
-```
+``` python
 context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='bert')
 ```
 
@@ -20,7 +20,7 @@ where:
 
 #### Output
 
-```
+``` python
 {'calculation': 0.09977173805236816,
  'comparison': 0.09102193266153336,
  'calculations': 0.05838974565267563,
@@ -28,7 +28,7 @@ where:
  'measurement': 0.05379500240087509}
 ```
 
-#### More Examples:
+#### Examples
 
 ``` python
 >>> context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='word2vec')
