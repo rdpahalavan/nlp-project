@@ -1,4 +1,5 @@
 # pip install gensim
+# pip install torch
 # pip install transformers datasets
 # pip install yake
 
@@ -67,4 +68,6 @@ def context_related_words(context_name, list_words, model_name):
 
 
 pprint.pprint(context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='word2vec'))
-
+pprint.pprint(context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='glove'))
+pprint.pprint(context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='bert'))
+pprint.pprint(context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='gpt'))
