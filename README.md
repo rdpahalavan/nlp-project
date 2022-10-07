@@ -3,7 +3,8 @@
 ## Sample code demonstrating the overview
 
 Download pre-trained models here: [`Word2vec`](https://drive.google.com/uc?id=1kHrHFShYeWcI8zMnUMYb1B49Mz0DdJA3) and [`GloVe`](https://drive.google.com/uc?id=1IrvvAi0isS5zqekWgS3_KuhN-kDKuDRi).
-The pre-trained models used for BERT and GPT as ['distilroberta-base'](https://huggingface.co/distilroberta-base) and ['gpt2'](https://huggingface.co/gpt2).
+
+The pre-trained models used for BERT and GPT as [`distilroberta-base`](https://huggingface.co/distilroberta-base) and [`gpt2`](https://huggingface.co/gpt2).
 
 
 ### Usage
