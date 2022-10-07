@@ -8,7 +8,7 @@ Download pre-trained models here: [`Word2vec`](https://drive.google.com/uc?id=1k
 ### Usage
 
 ```
-context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='word2vec')
+context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='bert')
 ```
 
 where:
@@ -19,9 +19,9 @@ where:
 #### Output
 
 ```
-{'Wellness': 0.5733888745307922,
- 'Flu_Vaccination': 0.5551058053970337,
- 'H#N#_Vaccination': 0.5550900101661682,
- 'Inc_CHSI': 0.5415679812431335,
- 'Primary_Care': 0.5376291275024414}
+{'calculation': 0.09977173805236816,
+ 'comparison': 0.09102193266153336,
+ 'calculations': 0.05838974565267563,
+ 'BMI': 0.056244466453790665,
+ 'measurement': 0.05379500240087509}
 ```
