@@ -25,3 +25,17 @@ where:
  'BMI': 0.056244466453790665,
  'measurement': 0.05379500240087509}
 ```
+
+More Examples:
+
+```
+context_related_words(context_name='Health', list_words=['Weight', 'Height'], model_name='word2vec')
+```
+Output:
+```
+{'Wellness': 0.5733888745307922,
+ 'Flu_Vaccination': 0.5551058053970337,
+ 'H#N#_Vaccination': 0.5550900101661682,
+ 'Inc_CHSI': 0.5415679812431335,
+ 'Primary_Care': 0.5376291275024414}
+```
